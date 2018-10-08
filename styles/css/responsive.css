@@ -1,0 +1,77 @@
+/*For max-width: 800px*/
+@media screen and (max-width: 800px) {
+
+    .col {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .col-1, .col-2, .col-3 {
+        margin-left: 0px;
+    }
+
+    .slider-item-text h2 {
+        font: normal 1.2em 'Izhitsa';
+    }
+
+    .slider-item-description {
+        font: normal 0.6em "Tahoma", "Arial", sans-serif;
+        line-height: 1.0em;
+        width: 75%;
+    }
+
+}
+
+/*For max-width: 600px*/
+@media screen and (max-width: 600px) {
+
+    .logo {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .contacts {
+        float: none;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    .slider-item-description {
+        display: none;
+    }
+
+    .slider-item-text {
+        font: normal 1.0em 'Izhitsa';
+    }
+
+}
+
+/*For max-width: 480px*/
+@media screen and (max-width: 480px) {
+
+    .owl-theme .owl-controls .owl-page span{
+        width: 10px;
+        height: 10px;
+        margin: 5px 7px;
+        border-radius: 3px;
+    }
+
+    .slider-item-text {
+        font: normal 0.8em 'Izhitsa';
+    }
+
+}
+
+/*For max-width: 320px*/
+@media screen and (max-width: 320px) {
+
+    .owl-pagination {
+        display: none;
+    }
+
+    .slider-item-text {
+        font: normal 0.6em 'Izhitsa';
+    }
+
+}
+
